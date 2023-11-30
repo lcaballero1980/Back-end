@@ -18,6 +18,6 @@ echo Password: %password%
 echo Password: %password% >> config.txt
 set "x=%string:://=" & set "substring=%"
 set "usuario=%substring::=" & set "x=%"
-echo User: %usuario%
-echo User: %usuario% >> config.txt
+echo usuario: %usuario%
+echo usuario: %usuario% >> config.txt
 mysql -u %usuario% -p%password% -h %host% -D %dbname% --ssl-mode=DISABLED < %1

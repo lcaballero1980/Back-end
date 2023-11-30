@@ -1,5 +1,0 @@
-JAWSDB_URL:     mysql://iix99hklj4zhltoe:r7f0obtoxxjdxfaj@l0ebsc9jituxzmts.cbetxkdyhwsb.us-east-1.rds.amazonaws.com/sospj73fdn64ivyp
-DB name: sospj73fdn64ivyp 
-Host: l0ebsc9jituxzmts.cbetxkdyhwsb.us-east-1.rds.amazonaws.com 
-Password: r7f0obtoxxjdxfaj 
-User: iix99hklj4zhltoe 
