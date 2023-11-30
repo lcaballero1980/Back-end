@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Formulario de Inicio de Sesión</title>
+    <link rel="stylesheet" href="/stylesheets/formulario.css" />
+  </head>
+  <div>
+    <form action="/admin/login" method="post">
+      <div class="container">
+        <label for="usuario"><b>Nombre de usuario</b></label>
+        <input
+          type="text"
+          id="inputUser"
+          placeholder="Ingresa tu nombre de usuario"
+          name="usuario"
+          required
+        />
+
+        <label for="password"><b>Contraseña</b></label>
+        <input
+          type="password"
+          id="inputPassword"
+          placeholder="Ingresa tu contraseña"
+          name="password"
+          required
+        />
+
+        <button type="submit">Iniciar Sesión</button>
+      </div>
+
+      {{! <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancelar</button>
+            <span class="psw">Olvidaste tu <a href="#">contraseña?</a></span>
+        </div> }}
+    </form>
+    {{#if error}}
+      <p>Usuario y/o contraseña incorrectos</p>
+    {{/if}}
+  </div>
+</html>

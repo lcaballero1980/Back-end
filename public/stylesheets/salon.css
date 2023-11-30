@@ -1,0 +1,51 @@
+/* font-family: 'Poppins', sans-serif; */
+*, body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16pt;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #161B33;
+    height: 80px;
+    padding: 10px 10px;
+}
+
+div.holder{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+div.titulo{
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+div.titulo h1{
+    font-size: 20pt;
+}
+div.titulo img{
+    width: 80px;
+    border-radius: 10px;
+    height: 60px;
+}
+
+/* pie de pagina */
+footer{
+    height: 60px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: #161B33;
+    color: white;
+    text-align: center;
+}
+
+footer h4{
+    font-size: 12pt;
+    padding: 20px 10px;
+}
